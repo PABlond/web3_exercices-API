@@ -10,11 +10,12 @@
 
 ## How to use
 
-- npm install
-- npm run dev
-- npm run build
-- npm start
+### Development
+
+```
+npm run dev
+```
 
 ## Kill process on port
 
-- kill $(lsof -t -i :5000)
+- kill $(lsof -t -i :3000)
